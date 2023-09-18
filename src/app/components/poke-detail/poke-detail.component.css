@@ -1,0 +1,58 @@
+.card{
+  width: 35%;
+  margin: 0 auto;
+}
+
+.card__span{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.card__span img{
+    width: 30%;
+    position: relative;
+    top: 75px;
+    z-index: 1;
+}
+
+.card__span h1{
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 600;
+}
+
+.ant-card-bordered {
+  border-radius: 30px;
+}
+
+.card__section{
+  margin-bottom: 130px;
+}
+
+
+.card__container{
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.chips{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.ant-tag{
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #23202f;
+  color: #fff;
+}
+
+
+section{
+  margin-top: 70px;
+}

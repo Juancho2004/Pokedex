@@ -1,0 +1,40 @@
+<div class="card">
+  <span class="card__span">
+    <img src={{pokemonImg}} alt="">
+    <h1>{{pokemon.name}}</h1>
+  </span>
+  <nz-card style="width:500px;" style="height:500px;">
+    <section class="card__section">
+      <div class="card__container">
+        <p>{{pokemonStats}}</p>
+        <span> <strong>{{pokemonStat}}</strong> </span>
+      </div>
+      <div class="card__container">
+        <p>{{pokemonStats1}}</p>
+        <span> <strong>{{pokemonStat1}}</strong> </span>
+      </div>
+      <div class="card__container">
+        <p>{{pokemonStats2}}</p>
+        <span> <strong>{{pokemonStat2}}</strong> </span>
+      </div>
+      <div class="card__container">
+        <p>{{pokemonStats3}}</p>
+        <span> <strong>{{pokemonStat3}}</strong> </span>
+      </div>
+      <div class="card__container">
+        <p>{{pokemonStats4}}</p>
+        <span> <strong>{{pokemonStat4}}</strong> </span>
+      </div>
+      <div class="card__container">
+        <p>{{pokemonStats5}}</p>
+        <span> <strong>{{pokemonStat5}}</strong> </span>
+      </div>
+    </section>
+    <div class="chips">
+      <nz-tag>Type: {{pokemonType}}</nz-tag>
+      <nz-tag>Height: {{pokemon.height}}</nz-tag>
+      <nz-tag>Weight: {{pokemon.weight}}</nz-tag>
+      <nz-tag>Habilities: {{pokemonAbilities}}</nz-tag>
+    </div>
+  </nz-card>
+</div>

@@ -1,0 +1,53 @@
+.container{
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+table{
+  min-width: 80%;
+  margin: 0 auto;
+}
+
+.mat-elevation-z8{
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.mat-mdc-header-cell{
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.mat-mdc-cell{
+  text-align: center;
+}
+
+.mat-mdc-row:nth-child(even){
+  background-color: #ffcc01;
+  & .mat-mdc-cell{
+    color: #0b5494;
+  }
+}
+
+.mat-mdc-row:nth-child(odd){
+  background-color: #0b5494;
+  & .mat-mdc-cell{
+    color: #ffcc01;
+  }
+}
+
+
+.mat-mdc-row:hover{
+  cursor: pointer;
+  border: 2px solid #000;
+  padding: 0;
+}
+
+::ng-deep.mat-mdc-paginator{
+  width: 80%;
+  margin: 0 auto;
+}
+

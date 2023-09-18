@@ -1,0 +1,11 @@
+.nz-layout{
+  background-color: #424242;
+}
+
+img{
+  display: block;
+  width: 4%;
+  padding: 7px 0;
+  margin: 0 auto;
+  cursor: pointer;
+}
